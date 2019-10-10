@@ -1,0 +1,14 @@
+{
+  "name": "Afterlogic Aurora Corporate 8 Web API Reference",
+  "version": "0.1.0",
+  "description": "",
+  "url" : "https://afterlogic.com/aurora",
+  "sampleUrl" : "https://aurora.afterlogic.com/",
+  "template": {
+	  "forceLanguage": "en"
+  },
+  "header": {
+    "title": "Overview",
+    "filename": "../../apidoc-overview.md"
+  }
+}
