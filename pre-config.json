@@ -22,7 +22,7 @@
 			"ImportContactsLink": "https://afterlogic.com/docs/webmail-pro-8/frequently-asked-questions/importing-contacts"
 		},
 		"Core": {
-			"ProductName": "Afterlogic WebMail Pro PHP"
+			"ProductName": "MailSuite Pro for Linux"
 		},
 		"CoreWebclient": {
 			"HeaderModulesOrder": ["mail", "contacts"],
