@@ -17,5 +17,5 @@ after_success:
 - ./travis.sh -t upload
 env:
   global:
-  - PRODUCT_NAME=aurora-corporate-mta
+  - PRODUCT_NAME=webmail-pro-mta
   
