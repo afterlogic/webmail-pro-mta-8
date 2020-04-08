@@ -93,6 +93,9 @@
 		"RecaptchaWebclientPlugin": {
 			"Disabled": true
 		},
+		"SessionTimeoutWebclient": {
+			"Disabled": true
+		},
 		"SettingsMobileWebclient": {
 			"Disabled": true
 		},
