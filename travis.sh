@@ -23,22 +23,29 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 
 echo TASK  = "$TASK"
 
-if [ "$TASK" = "build" ]; then
+if [ "$TASK" = "npm" ]; then
+	cd ${DIR}
+	
 	npm install -g gulp-cli
 	npm install
+fi
 
+if [ "$TASK" = "build" ]; then
+	#cd ${DIR}
 	gulp styles --themes Default,DeepForest,Funny,Sand --build a
 	gulp js:build --build a
 	gulp js:min --build a
-	gulp test
-
-	echo 'deny from all' > data/.htaccess
+	#gulp test
+fi
 	
+if [ "$TASK" = "pack" ]; then
+	echo 'deny from all' > data/.htaccess
+
 	PRODUCT_VERSION=`cat VERSION`
 	
-	echo CREATE ZIP FILE  = "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
+	echo CREATE ZIP FILE: "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
 	
-	zip -r ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip data/settings/config.json data/settings/modules data/.htaccess modules static system vendor dev ".htaccess" build.php dav.php index.php LICENSE VERSION README.md CHANGELOG.txt favicon.ico robots.txt package.json composer.json composer.lock modules.json gulpfile.js pre-config.json -x **/*.bak *.git*
+	zip -rq ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip data/settings/config.json data/settings/modules modules static system vendor dev ".htaccess" dav.php index.php LICENSE VERSION README.md CHANGELOG.txt favicon.ico robots.txt package.json composer.json composer.lock modules.json gulpfile.js pre-config.json -x **/*.bak *.git*
 fi
 
 if [ "$TASK" = "upload" ]; then
