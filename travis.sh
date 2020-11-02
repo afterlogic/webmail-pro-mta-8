@@ -1,5 +1,6 @@
 #!/bin/bash
 
+DIR=$(cd `dirname $0` && pwd)
 TASK="build"
 
 POSITIONAL=()
@@ -21,7 +22,7 @@ esac
 done
 set -- "${POSITIONAL[@]}" # restore positional parameters
 
-echo TASK  = "$TASK"
+echo TASK: "$TASK"
 
 if [ "$TASK" = "npm" ]; then
 	cd ${DIR}
@@ -39,19 +40,22 @@ if [ "$TASK" = "build" ]; then
 fi
 	
 if [ "$TASK" = "pack" ]; then
-	echo 'deny from all' > data/.htaccess
 
+	echo 'deny from all' > data/.htaccess
+	
 	PRODUCT_VERSION=`cat VERSION`
 	
 	echo CREATE ZIP FILE: "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
 	
-	zip -rq ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip data/settings/config.json data/settings/modules modules static system vendor dev ".htaccess" dav.php index.php LICENSE VERSION README.md CHANGELOG.txt favicon.ico robots.txt package.json composer.json composer.lock modules.json gulpfile.js pre-config.json -x **/*.bak *.git*
+	zip -rq ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip data/settings/config.json data/settings/modules data/.htaccess modules static system vendor dev ".htaccess" dav.php index.php LICENSE VERSION README.md CHANGELOG.txt favicon.ico robots.txt package.json composer.json composer.lock modules.json gulpfile.js pre-config.json -x **/*.bak *.git*
 fi
 
 if [ "$TASK" = "upload" ]; then
-	PRODUCT_VERSION=`cat VERSION`
-
-	echo UPLOAD ZIP FILE  = "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
+	cd ${DIR}
 	
-	curl --ftp-create-dirs --retry 6 -T ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip -u ${FTP_USER}:${FTP_PASSWORD} ftp://afterlogic.com/
+	PRODUCT_VERSION=`cat VERSION`
+	
+	echo UPLOAD ZIP FILE: "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
+	
+	curl -v --ftp-create-dirs --retry 6 -T ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip -u ${FTP_USER}:${FTP_PASSWORD} ftp://afterlogic.com/
 fi
