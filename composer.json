@@ -1,9 +1,6 @@
 {
 	"config": {
-		"minimum-stability": "dev",
-		"preferred-install": {
-			"afterlogic/*": "source"
-		}
+		"minimum-stability": "dev"
 	},
 	"repositories": [
 		{"type": "composer", "url":"https://afterlogic.com/composer/"}
@@ -125,11 +122,6 @@
 			"modules/{$name}/": ["type:aurora-module"],
 			"system/": ["type:aurora-framework"],
 			"dev/": ["type:aurora-dev-tools"]
-		},
-		"merge-plugin": {
-			"include": [
-				"modules.json"
-			]
 		}
 	}
 }
