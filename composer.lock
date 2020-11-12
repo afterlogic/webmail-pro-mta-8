@@ -29,16 +29,16 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.9.125",
+            "version": "0.9.127",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.9.125"
+                "reference": "tags/0.9.127"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.9.125.zip",
-                "reference": "tags/0.9.125"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.9.127.zip",
+                "reference": "tags/0.9.127"
             },
             "require": {
                 "afterlogic/mailso": "^1.4",
@@ -55,7 +55,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2020-11-06T12:36:44+00:00"
+            "time": "2020-11-12T06:47:22+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activeserver",
@@ -609,16 +609,16 @@
         },
         {
             "name": "afterlogic/aurora-module-mail",
-            "version": "0.9.99",
+            "version": "0.9.100",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail",
-                "reference": "tags/0.9.99"
+                "reference": "tags/0.9.100"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.9.99.zip",
-                "reference": "tags/0.9.99"
+                "url": "https://github.com/afterlogic/aurora-module-mail/archive/0.9.100.zip",
+                "reference": "tags/0.9.100"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -630,7 +630,7 @@
             "extra": {
                 "installer-name": "Mail"
             },
-            "time": "2020-11-06T12:39:12+00:00"
+            "time": "2020-11-12T13:38:54+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-auth-cpanel",
@@ -1052,16 +1052,16 @@
         },
         {
             "name": "afterlogic/aurora-module-mta-connector",
-            "version": "0.9.31",
+            "version": "0.9.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mta-connector",
-                "reference": "tags/0.9.31"
+                "reference": "tags/0.9.32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mta-connector/archive/0.9.31.zip",
-                "reference": "tags/0.9.31"
+                "url": "https://github.com/afterlogic/aurora-module-mta-connector/archive/0.9.32.zip",
+                "reference": "tags/0.9.32"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1072,7 +1072,7 @@
             "extra": {
                 "installer-name": "MtaConnector"
             },
-            "time": "2020-11-11T08:18:22+00:00"
+            "time": "2020-11-11T09:12:30+00:00"
         },
         {
             "name": "afterlogic/aurora-module-oembed-files",
@@ -1906,16 +1906,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-openpgp-files",
-            "version": "0.9.50",
+            "version": "0.9.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files",
-                "reference": "tags/0.9.50"
+                "reference": "tags/0.9.51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.9.50.zip",
-                "reference": "tags/0.9.50"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-openpgp-files/archive/0.9.51.zip",
+                "reference": "tags/0.9.51"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -1927,7 +1927,7 @@
             "extra": {
                 "installer-name": "OpenPgpFilesWebclient"
             },
-            "time": "2020-10-14T07:50:20+00:00"
+            "time": "2020-11-12T09:57:35+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-recaptcha-plugin",
@@ -2116,16 +2116,16 @@
         },
         {
             "name": "afterlogic/mailso",
-            "version": "1.5.32",
+            "version": "1.5.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/MailSo.git",
-                "reference": "ddbb6e501165a893ffa71a5f1c8c40acbf2218f9"
+                "reference": "8661ca9634c5064f70b1d142f9b359cddcbdc73f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/ddbb6e501165a893ffa71a5f1c8c40acbf2218f9",
-                "reference": "ddbb6e501165a893ffa71a5f1c8c40acbf2218f9",
+                "url": "https://api.github.com/repos/afterlogic/MailSo/zipball/8661ca9634c5064f70b1d142f9b359cddcbdc73f",
+                "reference": "8661ca9634c5064f70b1d142f9b359cddcbdc73f",
                 "shasum": ""
             },
             "require": {
@@ -2153,24 +2153,20 @@
             ],
             "description": "Afterlogic MailSo",
             "homepage": "https://github.com/afterlogic/mailso",
-            "support": {
-                "issues": "https://github.com/afterlogic/MailSo/issues",
-                "source": "https://github.com/afterlogic/MailSo/tree/1.5.32"
-            },
-            "time": "2020-10-29T12:36:07+00:00"
+            "time": "2020-11-12T11:46:54+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.159.1",
+            "version": "3.160.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "41d8908c1ac53afc8b5dc68aab7a67765e366e15"
+                "reference": "5f1be65b657a53d79f585e2df8c996931b1b01b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/41d8908c1ac53afc8b5dc68aab7a67765e366e15",
-                "reference": "41d8908c1ac53afc8b5dc68aab7a67765e366e15",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5f1be65b657a53d79f585e2df8c996931b1b01b1",
+                "reference": "5f1be65b657a53d79f585e2df8c996931b1b01b1",
                 "shasum": ""
             },
             "require": {
@@ -2242,7 +2238,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-11-10T19:11:53+00:00"
+            "time": "2020-11-11T19:16:21+00:00"
         },
         {
             "name": "composer/installers",
@@ -3036,6 +3032,10 @@
                 "json",
                 "jsonpath"
             ],
+            "support": {
+                "issues": "https://github.com/jmespath/jmespath.php/issues",
+                "source": "https://github.com/jmespath/jmespath.php/tree/2.6.0"
+            },
             "time": "2020-07-31T21:01:56+00:00"
         },
         {
@@ -4602,6 +4602,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.20.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
