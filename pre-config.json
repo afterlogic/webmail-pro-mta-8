@@ -1,5 +1,8 @@
 {
 	"system": {
+		"DBPrefix": "",
+		"DBName": "afterlogic",
+		"DBPassword": "mailbundle"
 	},
 	"modules": {
 		"AdminPanelWebclient": {
