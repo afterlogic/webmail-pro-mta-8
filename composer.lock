@@ -751,16 +751,16 @@
         },
         {
             "name": "afterlogic/aurora-module-mail-notes-plugin",
-            "version": "0.9.18",
+            "version": "0.9.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin",
-                "reference": "tags/0.9.18"
+                "reference": "tags/0.9.19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin/archive/0.9.18.zip",
-                "reference": "tags/0.9.18"
+                "url": "https://github.com/afterlogic/aurora-module-mail-notes-plugin/archive/0.9.19.zip",
+                "reference": "tags/0.9.19"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0",
@@ -770,7 +770,7 @@
             "extra": {
                 "installer-name": "MailNotesPlugin"
             },
-            "time": "2020-04-10T15:13:05+00:00"
+            "time": "2021-02-05T13:38:43+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mail-save-attachments-to-files-plugin",
@@ -1313,16 +1313,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-calendar",
-            "version": "0.9.31",
+            "version": "0.9.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-calendar",
-                "reference": "tags/0.9.31"
+                "reference": "tags/0.9.32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-calendar/archive/0.9.31.zip",
-                "reference": "tags/0.9.31"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-calendar/archive/0.9.32.zip",
+                "reference": "tags/0.9.32"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0"
@@ -1331,7 +1331,7 @@
             "extra": {
                 "installer-name": "CalendarWebclient"
             },
-            "time": "2021-01-29T09:03:52+00:00"
+            "time": "2021-02-08T10:45:49+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-change-password",
@@ -1659,16 +1659,16 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail",
-            "version": "0.9.123",
+            "version": "0.9.124",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-mail",
-                "reference": "tags/0.9.123"
+                "reference": "tags/0.9.124"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.123.zip",
-                "reference": "tags/0.9.123"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-mail/archive/0.9.124.zip",
+                "reference": "tags/0.9.124"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.9.0"
@@ -1677,7 +1677,7 @@
             "extra": {
                 "installer-name": "MailWebclient"
             },
-            "time": "2021-02-05T10:10:08+00:00"
+            "time": "2021-02-08T10:46:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-mail-login-form",
@@ -2150,16 +2150,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.173.3",
+            "version": "3.173.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "b805c50f0338180e7328c7ad5bcb0aceae11a75a"
+                "reference": "45a5150c35ab4ee5e4eb05332179a094476d1dd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b805c50f0338180e7328c7ad5bcb0aceae11a75a",
-                "reference": "b805c50f0338180e7328c7ad5bcb0aceae11a75a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/45a5150c35ab4ee5e4eb05332179a094476d1dd5",
+                "reference": "45a5150c35ab4ee5e4eb05332179a094476d1dd5",
                 "shasum": ""
             },
             "require": {
@@ -2231,7 +2231,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2021-02-04T21:45:53+00:00"
+            "time": "2021-02-08T19:13:12+00:00"
         },
         {
             "name": "composer/installers",
