@@ -1,3 +1,7 @@
+[9.1.0]
+[*] Corrected issues with user signup on cPanel
+[*] Various bugfixes
+
 [9.0.0]
 [+] Laravel Eloquent is now used for database layer
 [+] Migration script from EAV tables of v8 to v9 database structure
