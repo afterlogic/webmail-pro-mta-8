@@ -2,7 +2,8 @@
 	"system": {
 		"DBPrefix": "",
 		"DBName": "afterlogic",
-		"DBPassword": "mailbundle"
+		"DBPassword": "mailbundle",
+		"XFrameOptions": "SAMEORIGIN"
 	},
 	"modules": {
 		"AdminPanelWebclient": {
