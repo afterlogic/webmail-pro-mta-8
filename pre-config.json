@@ -63,8 +63,8 @@
 			"Disabled": true
 		},
 		"LicensingWebclient": {
-			"TrialKeyLink": "<a href=\"https://afterlogic.com/get-trial-key?productId=afterlogic-webmail-pro-9\" target=\"_blank\">https://afterlogic.com/get-trial-key?productId=afterlogic-webmail-pro-9</a>",
-			"PermanentKeyLink": "<a href=\"https://afterlogic.com/purchase/webmail-pro\" target=\"_blank\">https://afterlogic.com/purchase/webmail-pro</a>"
+			"TrialKeyLink": "<a href=\"https://afterlogic.com/get-trial-key?productId=afterlogic-mailsuite-pro\" target=\"_blank\">https://afterlogic.com/get-trial-key?productId=afterlogic-mailsuite-pro</a>",
+			"PermanentKeyLink": "<a href=\"https://afterlogic.com/purchase/mailsuite-pro-linux\" target=\"_blank\">https://afterlogic.com/purchase/mailsuite-pro-linux</a>"
 		},
 		"StandardLoginFormWebclient": {
 			"UseDropdownLanguagesView": true,
