@@ -1035,15 +1035,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mta-connector",
-            "version": "0.10.10",
+            "version": "0.10.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mta-connector",
-                "reference": "tags/0.10.10"
+                "reference": "tags/0.10.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mta-connector/archive/0.10.10.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mta-connector/archive/0.10.11.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1054,7 +1054,7 @@
             "extra": {
                 "installer-name": "MtaConnector"
             },
-            "time": "2021-10-01T07:33:33+00:00"
+            "time": "2021-11-16T10:23:51+00:00"
         },
         {
             "name": "afterlogic/aurora-module-oembed-files",
