@@ -1,6 +1,10 @@
 {
 	"config": {
-		"minimum-stability": "dev"
+		"minimum-stability": "dev",
+		"allow-plugins": {
+			"composer/installers": true,
+			"oomphinc/composer-installers-extender": true
+		}
 	},
 	"repositories": [
 		{"type": "composer", "url":"https://afterlogic.com/composer/"}
