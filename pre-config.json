@@ -35,7 +35,8 @@
 				"DefaultSortOrder": "desc"
 			},
 			"AllowDefaultAccountForUser": true,
-			"AutocreateMailAccountOnNewUserFirstLogin": true
+			"AutocreateMailAccountOnNewUserFirstLogin": true,
+			"XOriginatingIPHeaderName": ""
 		},
 		"ChangePasswordWebclient": {
 			"Disabled": false
