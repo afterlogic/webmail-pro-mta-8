@@ -106,9 +106,9 @@
 		
 		"afterlogic/aurora-module-mail-domains": "~0.10.0",
 		"afterlogic/aurora-module-mta-connector": "~0.10.0",
-		"afterlogic/aurora-module-webclient-mta-connector": "~0.10.0"
+		"afterlogic/aurora-module-webclient-mta-connector": "~0.10.0",
+		"afterlogic/dav": "~3.0.0"
 		
-
 	},
 	"scripts": {
 		"post-install-cmd": "@pre-config",
