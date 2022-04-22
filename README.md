@@ -19,7 +19,7 @@ During installation process you will need:
     
     **Note!** npm 3.0 or later is required
 
-1. Download and unpack the latest version of Webmail Pro 8 into your installation root directory
+1. Download and unpack the latest version of Webmail Pro into your installation root directory
 [`https://github.com/afterlogic/webmail-pro-mta-8/archive/latest.zip`](https://github.com/afterlogic/webmail-pro-mta-8/archive/latest.zip)
 
 We're assuming that you wish to install the latest stable version of the product. If you're looking for the latest code (e.g., to contribute changes), the following steps needs to be taken:
@@ -40,7 +40,7 @@ git clone https://github.com/afterlogic/webmail-pro-8.git INSTALL_FOLDER_PATH
 	}.......
 ```
 
-2. Download `composer.phar` from [`https://getcomposer.org/composer-1.phar`](https://getcomposer.org/composer-1.phar)
+2. `composer.phar` file is available in repository, but you can download its latest version 2 from [`https://getcomposer.org/composer.phar`](https://getcomposer.org/composer.phar)
 
 3. Start the composer installation process by running the following from the command line:
     ```bash
@@ -59,19 +59,29 @@ git clone https://github.com/afterlogic/webmail-pro-8.git INSTALL_FOLDER_PATH
       ```bash
       npm install --global gulp-cli
       ```
+      then install the modules required for adminpanel to work 
+      ```bash
+      cd modules/AdminPanelWebclient/vue
+      npm install
+      npm install -g @quasar/cli
+      ```
 
-5. Now you can build static files
+5. Now you can build static files. Run the following commands in main directory
     ```bash
     gulp styles --themes Default,DeepForest,Funny,Sand
     ```
-
-    ```bash
+      ```bash
     gulp js:min
     ```
+      and build adminpanel 
+      ```bash
+      cd modules/AdminPanelWebclient/vue
+      npm run build-production
+      ```
   
-6. Now you are ready to open a URL pointing to the installation directory in your favorite web browser.
+6. Now you are ready to open a URL pointing to the installation directory in your favorite web browser. Be sure to add `/adminpanel/` to main URL to access admin interface.
 
-7. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/webmail-pro-8/configuring-webmail).
+7. Upon installing the product, you'll need to [configure your installation](https://afterlogic.com/docs/webmail-pro/configuring-webmail).
 
 **IMPORTANT:**
 
@@ -86,7 +96,7 @@ To enable automatic redirect from **http** to **https**, set **RedirectToHttps**
 
 **Protecting data directory**
 
-All configuration files of the application and user data are stored in data directory, so it's important to [protect data directory](https://afterlogic.com/docs/webmail-pro-8/security/protecting-data-directory) to make sure that nobody can access that directory over the Internet directly. 
+All configuration files of the application and user data are stored in data directory, so it's important to [protect data directory](https://afterlogic.com/docs/webmail-pro/security/protecting-data-directory) to make sure that nobody can access that directory over the Internet directly. 
 
 # Licensing
 This product is licensed under Afterlogic Software License. The modules and other packages included in this product as dependencies are licensed under their own licenses.

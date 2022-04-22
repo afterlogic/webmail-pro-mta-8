@@ -1,6 +1,10 @@
 {
 	"config": {
 		"minimum-stability": "dev",
+		"preferred-install": {
+			"afterlogic/*": "source"
+		},
+		"platform-check": false,
 		"allow-plugins": {
 			"composer/installers": true,
 			"oomphinc/composer-installers-extender": true
@@ -82,7 +86,6 @@
 		"afterlogic/aurora-module-calendar-meetings-plugin": "~0.10.0",
 		"afterlogic/aurora-module-two-factor-auth": "~0.10.0",
 		"afterlogic/aurora-module-cpanel-integrator": "~0.10.0",
-		"afterlogic/aurora-module-standard-reset-password": "~0.10.0",
 		"afterlogic/aurora-module-webclient-mail-signup": "~0.10.0",
 		"afterlogic/aurora-module-import-export-mail-plugin": "~0.10.0",
 		"afterlogic/aurora-module-webclient-recaptcha-plugin": "~0.10.0",
@@ -102,13 +105,12 @@
 		"afterlogic/aurora-module-webclient-openpgp-files": "~0.10.0",
 		"afterlogic/aurora-module-gmail-connector": "~0.10.0",
 		"aws/aws-sdk-php": "3.178.6",
+		"afterlogic/dav": "~3.0.0",
 
-		
+		"afterlogic/aurora-module-standard-reset-password": "~0.10.0",
 		"afterlogic/aurora-module-mail-domains": "~0.10.0",
 		"afterlogic/aurora-module-mta-connector": "~0.10.0",
-		"afterlogic/aurora-module-webclient-mta-connector": "~0.10.0",
-		"afterlogic/dav": "~3.0.0"
-		
+		"afterlogic/aurora-module-webclient-mta-connector": "~0.10.0"
 	},
 	"scripts": {
 		"post-install-cmd": "@pre-config",
