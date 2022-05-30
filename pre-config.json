@@ -122,7 +122,9 @@
 			"IncludePasswordInProfile": false
 		},
 		"Contacts": {
-			"ImportContactsLink": "https://afterlogic.com/docs/webmail-pro/frequently-asked-questions/importing-contacts"
+			"ImportContactsLink": "https://afterlogic.com/docs/webmail-pro/frequently-asked-questions/importing-contacts",
+			"AllowAddressBooksManagement": true,
+			"AllowEditTeamContactsByTenantAdmins": true
 		},
 		"S3Filestorage": {
 			"Disabled": true
