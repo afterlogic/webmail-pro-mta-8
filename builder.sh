@@ -1,5 +1,10 @@
 #!/bin/bash
 
+RED='\033[1;31m'
+YELLOW='\033[1;33m'
+GREEN='\033[1;32m'
+NC='\033[0m' # No Color
+
 DIR=$(cd `dirname $0` && pwd)
 DIR_VUE="${DIR}/modules/AdminPanelWebclient/vue"
 TASK="build"
@@ -36,19 +41,20 @@ if [ "$TASK" = "npm" ]; then
 		npm install
 		npm install -g @quasar/cli
 	fi
+
 fi
 
 if [ "$TASK" = "build" ]; then
-	#cd ${DIR}
+	./builder.sh -t build-main
+	./builder.sh -t build-admin
+fi
+
+if [ "$TASK" = "build-main" ]; then
+	cd ${DIR}
 	gulp styles --themes Default,DeepForest,Funny,Sand --build a
 	gulp js:build --build a
 	gulp js:min --build a
 	#gulp test
-
-	if [ -d "$DIR_VUE" ]; then
-		cd ${DIR_VUE}
-		npm run build-production
-	fi
 fi
 
 if [ "$TASK" = "build-admin" ]; then
@@ -64,7 +70,12 @@ if [ "$TASK" = "pack" ]; then
 	
 	PRODUCT_VERSION=`cat VERSION`
 	
-	echo CREATE ZIP FILE: "${PRODUCT_NAME}_${PRODUCT_VERSION}.zip"
+	if [ -f "$DEMO_MODULES_FILE" ]; then
+		PRODUCT_VERSION=`cat VERSION`
+		rm ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip
+	fi
+	
+	printf $GREEN"CREATING ZIP FILE: ${RED}${PRODUCT_NAME}_${PRODUCT_VERSION}.zip\n"$NC
 	
 	zip -rq ${PRODUCT_NAME}_${PRODUCT_VERSION}.zip data/settings/config.json data/settings/modules data/.htaccess modules static system vendor dev adminpanel ".htaccess" dav.php index.php LICENSE VERSION README.md CHANGELOG.txt favicon.ico robots.txt package.json composer.json composer.lock gulpfile.js pre-config.json -x **/*.bak *.git* *node_modules/\*
 fi
