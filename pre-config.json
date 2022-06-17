@@ -136,6 +136,9 @@
 		"MobileAppsWebclient": {
 			"ShowMailServerUrlApp": false,
 			"ShowFilesServerUrlApp": false
+		},
+		"MailScheduledMessages": {
+			"Disabled": true
 		}
 	}
 }
