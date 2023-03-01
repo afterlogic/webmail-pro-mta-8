@@ -171,15 +171,15 @@
         },
         {
             "name": "afterlogic/aurora-module-calendar",
-            "version": "0.10.55",
+            "version": "0.10.57",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-calendar",
-                "reference": "tags/0.10.55"
+                "reference": "tags/0.10.57"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-calendar/archive/0.10.55.zip"
+                "url": "https://github.com/afterlogic/aurora-module-calendar/archive/0.10.57.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -195,7 +195,7 @@
                     "/"
                 ]
             },
-            "time": "2023-02-10T17:30:26+00:00"
+            "time": "2023-02-27T08:37:01+00:00"
         },
         {
             "name": "afterlogic/aurora-module-calendar-meetings-plugin",
@@ -591,15 +591,15 @@
         },
         {
             "name": "afterlogic/aurora-module-googledrive",
-            "version": "0.10.9",
+            "version": "0.10.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-googledrive",
-                "reference": "tags/0.10.9"
+                "reference": "tags/0.10.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-googledrive/archive/0.10.9.zip"
+                "url": "https://github.com/afterlogic/aurora-module-googledrive/archive/0.10.10.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -615,7 +615,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-30T14:35:54+00:00"
+            "time": "2023-02-17T16:03:19+00:00"
         },
         {
             "name": "afterlogic/aurora-module-import-export-mail-plugin",
@@ -1387,15 +1387,15 @@
         },
         {
             "name": "afterlogic/aurora-module-personalfiles",
-            "version": "0.10.38",
+            "version": "0.10.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-personalfiles",
-                "reference": "tags/0.10.38"
+                "reference": "tags/0.10.39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.38.zip"
+                "url": "https://github.com/afterlogic/aurora-module-personalfiles/archive/0.10.39.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1413,7 +1413,7 @@
                     "/"
                 ]
             },
-            "time": "2023-02-14T14:16:10+00:00"
+            "time": "2023-03-01T12:52:33+00:00"
         },
         {
             "name": "afterlogic/aurora-module-s3-filestorage",
@@ -1448,12 +1448,12 @@
             "version": "0.10.18",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-standard-reset-password",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-reset-password",
                 "reference": "tags/0.10.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-standard-reset-password/archive/0.10.18.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-standard-reset-password/archive/0.10.18.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1473,15 +1473,15 @@
         },
         {
             "name": "afterlogic/aurora-module-tasks",
-            "version": "0.10.8",
+            "version": "0.10.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-tasks",
-                "reference": "tags/0.10.8"
+                "reference": "tags/0.10.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-tasks/archive/0.10.8.zip"
+                "url": "https://github.com/afterlogic/aurora-module-tasks/archive/0.10.9.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0",
@@ -1496,7 +1496,7 @@
                     "/"
                 ]
             },
-            "time": "2023-01-27T12:43:48+00:00"
+            "time": "2023-03-01T14:39:28+00:00"
         },
         {
             "name": "afterlogic/aurora-module-two-factor-auth",
@@ -1583,15 +1583,15 @@
         },
         {
             "name": "afterlogic/aurora-module-webclient-calendar",
-            "version": "0.10.50",
+            "version": "0.10.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-webclient-calendar",
-                "reference": "tags/0.10.50"
+                "reference": "tags/0.10.51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-calendar/archive/0.10.50.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-calendar/archive/0.10.51.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0"
@@ -1605,7 +1605,7 @@
                     "/"
                 ]
             },
-            "time": "2023-02-03T14:23:53+00:00"
+            "time": "2023-02-24T09:41:29+00:00"
         },
         {
             "name": "afterlogic/aurora-module-webclient-change-password",
@@ -2606,16 +2606,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.258.11",
+            "version": "3.261.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "5e339f47f86db7ed5f5afcda345d30ac1713aed3"
+                "reference": "cb7f6d7ca313bfd3135ff23c49d734c1a7616d6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5e339f47f86db7ed5f5afcda345d30ac1713aed3",
-                "reference": "5e339f47f86db7ed5f5afcda345d30ac1713aed3",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cb7f6d7ca313bfd3135ff23c49d734c1a7616d6a",
+                "reference": "cb7f6d7ca313bfd3135ff23c49d734c1a7616d6a",
                 "shasum": ""
             },
             "require": {
@@ -2694,9 +2694,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.258.11"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.261.1"
             },
-            "time": "2023-02-15T20:08:42+00:00"
+            "time": "2023-02-28T19:22:11+00:00"
         },
         {
             "name": "composer/installers",
@@ -3406,16 +3406,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.287.0",
+            "version": "v0.289.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "ed58596d34272a5cd0dc2c0595d9a678b9834880"
+                "reference": "937f83a927db2d09db7eebb69ce2ac4114559bd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/ed58596d34272a5cd0dc2c0595d9a678b9834880",
-                "reference": "ed58596d34272a5cd0dc2c0595d9a678b9834880",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/937f83a927db2d09db7eebb69ce2ac4114559bd7",
+                "reference": "937f83a927db2d09db7eebb69ce2ac4114559bd7",
                 "shasum": ""
             },
             "require": {
@@ -3444,9 +3444,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.287.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.289.0"
             },
-            "time": "2023-02-12T01:08:11+00:00"
+            "time": "2023-02-26T01:10:11+00:00"
         },
         {
             "name": "google/auth",
@@ -6608,16 +6608,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.4.19",
+            "version": "v5.4.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "dccb8d251a9017d5994c988b034d3e18aaabf740"
+                "reference": "c77433ddc6cdc689caf48065d9ea22ca0853fbd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/dccb8d251a9017d5994c988b034d3e18aaabf740",
-                "reference": "dccb8d251a9017d5994c988b034d3e18aaabf740",
+                "url": "https://api.github.com/repos/symfony/console/zipball/c77433ddc6cdc689caf48065d9ea22ca0853fbd9",
+                "reference": "c77433ddc6cdc689caf48065d9ea22ca0853fbd9",
                 "shasum": ""
             },
             "require": {
@@ -6687,7 +6687,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.4.19"
+                "source": "https://github.com/symfony/console/tree/v5.4.21"
             },
             "funding": [
                 {
@@ -6703,7 +6703,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-01T08:32:19+00:00"
+            "time": "2023-02-25T16:59:41+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -6827,16 +6827,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v5.4.19",
+            "version": "v5.4.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "6071aebf810ad13fe8200c224f36103abb37cf1f"
+                "reference": "078e9a5e1871fcfe6a5ce421b539344c21afef19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/6071aebf810ad13fe8200c224f36103abb37cf1f",
-                "reference": "6071aebf810ad13fe8200c224f36103abb37cf1f",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/078e9a5e1871fcfe6a5ce421b539344c21afef19",
+                "reference": "078e9a5e1871fcfe6a5ce421b539344c21afef19",
                 "shasum": ""
             },
             "require": {
@@ -6870,7 +6870,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/v5.4.19"
+                "source": "https://github.com/symfony/finder/tree/v5.4.21"
             },
             "funding": [
                 {
@@ -6886,7 +6886,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-14T19:14:44+00:00"
+            "time": "2023-02-16T09:33:00+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -7545,16 +7545,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.4.19",
+            "version": "v5.4.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "c5ba874c9b636dbccf761e22ce750e88ec3f55e1"
+                "reference": "d4ce417ebcb0b7d090b4c178ed6d3accc518e8bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/c5ba874c9b636dbccf761e22ce750e88ec3f55e1",
-                "reference": "c5ba874c9b636dbccf761e22ce750e88ec3f55e1",
+                "url": "https://api.github.com/repos/symfony/process/zipball/d4ce417ebcb0b7d090b4c178ed6d3accc518e8bd",
+                "reference": "d4ce417ebcb0b7d090b4c178ed6d3accc518e8bd",
                 "shasum": ""
             },
             "require": {
@@ -7587,7 +7587,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v5.4.19"
+                "source": "https://github.com/symfony/process/tree/v5.4.21"
             },
             "funding": [
                 {
@@ -7603,7 +7603,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-01T08:32:19+00:00"
+            "time": "2023-02-21T19:46:44+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -7690,16 +7690,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.4.19",
+            "version": "v5.4.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "0a01071610fd861cc160dfb7e2682ceec66064cb"
+                "reference": "edac10d167b78b1d90f46a80320d632de0bd9f2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/0a01071610fd861cc160dfb7e2682ceec66064cb",
-                "reference": "0a01071610fd861cc160dfb7e2682ceec66064cb",
+                "url": "https://api.github.com/repos/symfony/string/zipball/edac10d167b78b1d90f46a80320d632de0bd9f2f",
+                "reference": "edac10d167b78b1d90f46a80320d632de0bd9f2f",
                 "shasum": ""
             },
             "require": {
@@ -7756,7 +7756,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v5.4.19"
+                "source": "https://github.com/symfony/string/tree/v5.4.21"
             },
             "funding": [
                 {
@@ -7772,20 +7772,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-01T08:32:19+00:00"
+            "time": "2023-02-22T08:00:55+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v5.4.19",
+            "version": "v5.4.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "83d487b13b7fb4c0a6ad079f4e4c9b4525e1b695"
+                "reference": "6996affeea65705086939894b77110e9a7f80874"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/83d487b13b7fb4c0a6ad079f4e4c9b4525e1b695",
-                "reference": "83d487b13b7fb4c0a6ad079f4e4c9b4525e1b695",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/6996affeea65705086939894b77110e9a7f80874",
+                "reference": "6996affeea65705086939894b77110e9a7f80874",
                 "shasum": ""
             },
             "require": {
@@ -7853,7 +7853,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v5.4.19"
+                "source": "https://github.com/symfony/translation/tree/v5.4.21"
             },
             "funding": [
                 {
@@ -7869,7 +7869,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-01T08:32:19+00:00"
+            "time": "2023-02-21T19:46:44+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -8209,16 +8209,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.9.17",
+            "version": "1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "204e459e7822f2c586463029f5ecec31bb45a1f2"
+                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/204e459e7822f2c586463029f5ecec31bb45a1f2",
-                "reference": "204e459e7822f2c586463029f5ecec31bb45a1f2",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/5419375b5891add97dc74be71e6c1c34baaddf64",
+                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64",
                 "shasum": ""
             },
             "require": {
@@ -8248,7 +8248,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.9.17"
+                "source": "https://github.com/phpstan/phpstan/tree/1.10.3"
             },
             "funding": [
                 {
@@ -8264,7 +8264,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-08T12:25:00+00:00"
+            "time": "2023-02-25T14:47:13+00:00"
         }
     ],
     "aliases": [],
