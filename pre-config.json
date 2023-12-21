@@ -13,7 +13,9 @@
 		"Core": {
 			"SiteName": "MailSuite Pro for Linux",
 			"ProductName": "MailSuite Pro for Linux",
-			"EnableFailedLoginBlock": true
+			"EnableFailedLoginBlock": true,
+			"LoginBlockAvailableTriesCount": 10,
+			"LoginBlockDurationMinutes": 3
 		},
 		"CoreWebclient": {
 			"HeaderModulesOrder": ["mail", "contacts"],
