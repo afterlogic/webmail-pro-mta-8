@@ -1280,15 +1280,15 @@
         },
         {
             "name": "afterlogic/aurora-module-mta-connector",
-            "version": "0.10.35",
+            "version": "0.10.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-module-mta-connector",
-                "reference": "tags/0.10.35"
+                "reference": "tags/0.10.37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-mta-connector/archive/0.10.35.zip"
+                "url": "https://github.com/afterlogic/aurora-module-mta-connector/archive/0.10.37.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
@@ -1304,7 +1304,7 @@
                     "/"
                 ]
             },
-            "time": "2025-04-11T13:17:16+00:00"
+            "time": "2025-09-10T14:58:53+00:00"
         },
         {
             "name": "afterlogic/aurora-module-oembed-files",
@@ -1725,12 +1725,12 @@
             "version": "0.10.29",
             "source": {
                 "type": "git",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin",
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin",
                 "reference": "tags/0.10.29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-module-webclient-core-paranoid-encryption-plugin/archive/0.10.29.zip"
+                "url": "https://github.com/afterlogic/aurora-module-webclient-core-jscrypto-plugin/archive/0.10.29.zip"
             },
             "require": {
                 "afterlogic/aurora-framework": "~0.10.0 || dev-master",
