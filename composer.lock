@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56c5b266a1a93badea34deeb6837ab1f",
+    "content-hash": "3c1768466ff212b6c221738b792ed626",
     "packages": [
         {
             "name": "afterlogic/aurora-dev-tools",
@@ -28,15 +28,15 @@
         },
         {
             "name": "afterlogic/aurora-framework",
-            "version": "0.10.148",
+            "version": "0.10.149",
             "source": {
                 "type": "git",
                 "url": "https://github.com/afterlogic/aurora-framework",
-                "reference": "tags/0.10.148"
+                "reference": "tags/0.10.149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.148.zip"
+                "url": "https://github.com/afterlogic/aurora-framework/archive/0.10.149.zip"
             },
             "require": {
                 "afterlogic/mailso": "^1.4 || dev-master",
@@ -62,7 +62,7 @@
                     "Installer.php"
                 ]
             },
-            "time": "2026-08-24T10:59:40+00:00"
+            "time": "2026-08-24T14:48:05+00:00"
         },
         {
             "name": "afterlogic/aurora-module-activeserver",
@@ -1223,6 +1223,28 @@
                 ]
             },
             "time": "2026-08-13T11:25:08+00:00"
+        },
+        {
+            "name": "afterlogic/aurora-module-mobile-webclient-openpgp-files",
+            "version": "0.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-openpgp-files",
+                "reference": "tags/0.10.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/afterlogic/aurora-module-mobile-webclient-openpgp-files/archive/0.10.1.zip"
+            },
+            "require": {
+                "afterlogic/aurora-framework": "~0.10.0 || dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "aurora-module",
+            "extra": {
+                "installer-name": "OpenPgpFilesMobileWebclient"
+            },
+            "time": "2026-08-14T09:21:15+00:00"
         },
         {
             "name": "afterlogic/aurora-module-mobile-webclient-settings",
