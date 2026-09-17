@@ -138,7 +138,8 @@
 		"afterlogic/aurora-module-mta-connector": "~0.10.0",
 		"afterlogic/aurora-module-webclient-mta-connector": "~0.10.0",
 		"afterlogic/aurora-module-webclient-security-settings": "~0.10.0",
-		"afterlogic/aurora-module-ip-allow-list": "~0.10.0"
+		"afterlogic/aurora-module-ip-allow-list": "~0.10.0",
+		"afterlogic/aurora-module-custom-mail-headers-reader": "^0.10.1"
 	},
 	"scripts": {
 		"post-install-cmd": "@pre-config",
